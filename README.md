@@ -8,7 +8,8 @@ A simple app highlighting how we can implement retry mechanism using Resilience4
 ## App Overview
 This is a simple app wherein we are fetching the movie details based on the movie id. The movie details are fetched from external service that is called using the Spring Rest Template. For simplicity, we have created a mock controller which acts as a external service for returning the movie details.
 
-In the application.yaml change the package name[com.example.retry] if you face error 
+## Exception
+In the application.yaml change the package name[com.example.retry] to your package name. if you face error 
 related to exceptions in application.yaml
 
 ## Retry Scenarios
